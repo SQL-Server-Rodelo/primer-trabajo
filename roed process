@@ -1,0 +1,20 @@
+USE BD_Negocio
+INSERT INTO dbo.empleado
+("CLAVE_EMP","APE1","APE2","NOMBRE","EDAD","SEXO")
+VALUES ('0006','LÓPEZ','FONG','MARTHA','20','F');
+INSERT INTO dbo.empleado
+("CLAVE_EMP","APE1","APE2","NOMBRE","EDAD","SEXO")
+VALUES ('0007','CANO','RUIZ','HUGO','45','M');
+INSERT INTO dbo.empleado
+("CLAVE_EMP","APE1","APE2","NOMBRE","EDAD","SEXO")
+VALUES ('0008','RUBIO','VELAZCO','ÓLIVER','23','M');
+INSERT INTO dbo.empleado
+("CLAVE_EMP","APE1","APE2","NOMBRE","EDAD","SEXO")
+VALUES ('0009','DIAZ','MEDINA','EMMA','19','F');
+INSERT INTO dbo.empleado
+("CLAVE_EMP","APE1","APE2","NOMBRE","EDAD","SEXO")
+VALUES ('0010','DIAZ','Monarrez','Jose','19','F');
+
+select*
+from empleado
+where sexo='m' and edad between 20 and 30
