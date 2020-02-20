@@ -18,3 +18,4 @@ VALUES ('0010','DIAZ','Monarrez','Jose','19','F');
 select*
 from empleado
 where sexo='m' and edad between 20 and 30
+*/NOOBS TODOS*/
